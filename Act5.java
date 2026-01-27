@@ -22,17 +22,21 @@ public class Act5 {
         System.out.println("Patient Disease: " + patientDisease);
     }
     public static void main(String[] args) {
+        String continueInput;
+        do {
+            int patientID = InputInt("Enter Patient ID: ");
+           
+            String patientName = InputString("Enter Patient Name: ");
 
-        int patientID = InputInt("Enter Patient ID: ");
-       
-        String patientName = InputString("Enter Patient Name: ");
+            int patientAge = InputInt("Enter Patient Age: ");
+            
+            String patientAddress = InputString("Enter Patient Address: ");
 
-        int patientAge = InputInt("Enter Patient Age: ");
-        
-        String patientAddress = InputString("Enter Patient Address: ");
+            String patientDisease = InputString("Enter Patient Disease: ");
 
-        String patientDisease = InputString("Enter Patient Disease: ");
-
-        Display(patientID, patientName, patientAge, patientAddress, patientDisease);
+            Display(patientID, patientName, patientAge, patientAddress, patientDisease);
+            
+            continueInput = InputString("Enter another patient? (yes/no): ");
+        } while (continueInput.equalsIgnoreCase("yes"));
     }
 }
