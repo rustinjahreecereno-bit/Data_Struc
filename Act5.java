@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Act5 {
     static Scanner sc = new Scanner(System.in);
-
+    static int patientCounter = 0;
+    
     public static int InputInt(String prompt) {
         System.out.print(prompt);
         int iA=sc.nextInt(); 
@@ -24,7 +25,8 @@ public class Act5 {
     public static void main(String[] args) {
         String continueInput;
         do {
-            int patientID = InputInt("Enter Patient ID: ");
+            patientCounter++;
+            int patientID = patientCounter;
            
             String patientName = InputString("Enter Patient Name: ");
 
