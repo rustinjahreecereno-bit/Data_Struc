@@ -6,14 +6,14 @@ public class Act5 {
     
     public static int InputInt(String prompt) {
         System.out.print(prompt);
-        int iA=sc.nextInt(); 
-        sc.nextLine();
-        return iA;
+        int A = sc.nextInt(); 
+        sc.nextLine();                  
+        return A;
     }
     public static String InputString(String prompt) {
         System.out.print(prompt);
-        String iA=sc.nextLine(); 
-        return iA;
+        String i = sc.nextLine(); 
+        return i;
     }
     public static void Display(int patientID, String patientName, int patientAge, String patientAddress, String patientDisease){
         System.out.println("Patient ID: " + patientID);

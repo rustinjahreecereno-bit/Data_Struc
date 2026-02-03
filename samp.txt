@@ -1,0 +1,39 @@
+Registration
+1. DVD
+2. VCD
+3. Tape
+Input code: 1
+
+Category
+1. Horror
+2. Scifi
+3. Drama
+4. Comedy
+5. Cartoons
+Input category: 3
+Input title: Haha
+Input minutes: 45
+1. Action
+2. Anime
+3. Historical
+4. Mystery
+5. Romance
+Input setting: 5
+
+Transaction Type
+1. Rental
+2. Sales
+Input transaction type: 2
+Input price: 467.0
+
+REPORTS
+For Rent: 0
+For Sale: 1
+DVD Total: 1
+VCD Total: 0
+Tape Total: 0
+Horror Movies: 0
+Scifi Movies: 0
+Drama Movies: 1
+Comedy Movies: 0
+Cartoons Movies: 0
